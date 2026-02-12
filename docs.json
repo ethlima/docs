@@ -1,13 +1,19 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Ethereum Lima Education",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
+
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+
   "navigation": {
     "global": {
       "anchors": [
@@ -15,110 +21,218 @@
           "anchor": "Web Eth Lima",
           "icon": "newspaper",
           "href": "https://ethlima.org/"
+        },
+        {
+          "anchor": "Comunidad",
+          "icon": "users",
+          "href": "https://ethlima.org/comunidad"
+        },
+        {
+          "anchor": "YouTube",
+          "icon": "youtube",
+          "href": "https://www.youtube.com/@EthereumLima"
+        },
+        {
+          "anchor": "GitHub",
+          "icon": "github",
+          "href": "https://github.com/ethereum-lima"
         }
       ]
     },
     "tabs": [
       {
-        "tab": "Home",
-        "icon": "rhombus",
+        "tab": "Inicio",
+        "icon": "home",
         "pages": [
           {
-            "group": "Start Here",
+            "group": "Start here",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "getting-started"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Overview",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "overview/about",
+              "overview/mission",
+              "overview/roadmap-2026",
+              "overview/team",
+              "overview/partners"
             ]
           }
         ]
       },
+
+      {
+        "tab": "Learning Paths",
+        "icon": "route",
+        "pages": [
+          "learning-paths/index",
+          {
+            "group": "Foundations",
+            "pages": [
+              "learning-paths/foundations/index",
+              "learning-paths/foundations/ethereum-basics",
+              "learning-paths/foundations/wallet-safety",
+              "learning-paths/foundations/remix-first-contract",
+              "learning-paths/foundations/next-steps"
+            ]
+          },
+          {
+            "group": "Builder Track",
+            "pages": [
+              "learning-paths/builder/index",
+              "learning-paths/builder/solidity-basics",
+              "learning-paths/builder/hardhat-workflow",
+              "learning-paths/builder/testing-basics",
+              "learning-paths/builder/erc20-project",
+              "learning-paths/builder/readme-demo"
+            ]
+          },
+          {
+            "group": "Advanced Track",
+            "pages": [
+              "learning-paths/advanced/index",
+              "learning-paths/advanced/layer2-overview",
+              "learning-paths/advanced/account-abstraction",
+              "learning-paths/advanced/smart-contract-security",
+              "learning-paths/advanced/zk-intro"
+            ]
+          }
+        ]
+      },
+
       {
         "tab": "Eventos",
-        "groups": [
+        "icon": "calendar",
+        "pages": [
+          "events/index",
           {
-            "group": "API documentation",
+            "group": "Bootcamp 2025",
             "pages": [
-              "api-reference/introduction"
+              "events/bootcamp-2025/index",
+              "events/bootcamp-2025/syllabus",
+              "events/bootcamp-2025/recordings",
+              "events/bootcamp-2025/slides",
+              "events/bootcamp-2025/projects",
+              "events/bootcamp-2025/retrospective"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Hackathon 2025",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "events/hackathon-2025/index",
+              "events/hackathon-2025/tracks",
+              "events/hackathon-2025/workshops",
+              "events/hackathon-2025/winners",
+              "events/hackathon-2025/gallery",
+              "events/hackathon-2025/retrospective"
+            ]
+          },
+          {
+            "group": "2026",
+            "pages": [
+              "events/2026/index",
+              "events/2026/calendar",
+              "events/2026/calls"
             ]
           }
         ]
       },
+
+      {
+        "tab": "Ruta de Puqi",
+        "icon": "map",
+        "pages": [
+          "ruta-de-puqi/index",
+          "ruta-de-puqi/kit",
+          {
+            "group": "Universidades (ejemplos)",
+            "pages": [
+              "ruta-de-puqi/uni",
+              "ruta-de-puqi/upc"
+            ]
+          }
+        ]
+      },
+
+      {
+        "tab": "Recursos",
+        "icon": "books",
+        "pages": [
+          "resources/index",
+          "resources/ethereum-core",
+          "resources/solidity",
+          "resources/security",
+          "resources/layer2",
+          "resources/zk",
+          "resources/ai-web3",
+          "resources/glossary"
+        ]
+      },
+
       {
         "tab": "Builder Hub",
+        "icon": "hammer",
         "pages": [
-          "hub"
+          "hub/index",
+          {
+            "group": "Showcase",
+            "pages": [
+              "showcase/index",
+              "showcase/builders",
+              "showcase/projects"
+            ]
+          },
+          {
+            "group": "Contribuir",
+            "pages": [
+              "contribute/index",
+              "contribute/content-style",
+              "contribute/repo-workflow"
+            ]
+          }
         ]
       }
     ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Contacto",
+        "href": "mailto:hello@ethlima.org"
+      },
+      {
+        "label": "Sponsor",
+        "href": "https://ethlima.org/sponsors"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Unirse",
+      "href": "https://ethlima.org/comunidad"
     }
   },
+
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "cursor",
+      "vscode"
+    ]
   },
+
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/ethereumlima",
+      "github": "https://github.com/ethereum-lima",
+      "linkedin": "https://www.linkedin.com/company/ethereum-lima"
     }
   }
 }
