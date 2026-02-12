@@ -30,7 +30,7 @@
         {
           "anchor": "YouTube",
           "icon": "youtube",
-          "href": "https://www.youtube.com/@EthereumLima"
+          "href": "https://www.youtube.com/@ethereumlima780"
         },
         {
           "anchor": "GitHub",
@@ -63,10 +63,10 @@
           }
         ]
       },
-
       {
         "tab": "Learning Paths",
         "icon": "route",
+        "hidden": true,
         "pages": [
           "learning-paths/index",
           {
@@ -102,7 +102,6 @@
           }
         ]
       },
-
       {
         "tab": "Eventos",
         "icon": "calendar",
@@ -140,7 +139,6 @@
           }
         ]
       },
-
       {
         "tab": "Ruta de Puqi",
         "icon": "map",
@@ -156,7 +154,6 @@
           }
         ]
       },
-
       {
         "tab": "Recursos",
         "icon": "books",
@@ -171,10 +168,10 @@
           "resources/glossary"
         ]
       },
-
       {
         "tab": "Builder Hub",
         "icon": "hammer",
+        "hidden": true,
         "pages": [
           "hub/index",
           {
