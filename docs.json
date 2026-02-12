@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Ethereum Lima Education",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#a3158c",
+    "light": "#aa64ff",
+    "dark": "#8181e3"
   },
   "favicon": "/favicon.svg",
 
