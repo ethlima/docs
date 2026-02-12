@@ -46,6 +46,7 @@
         "pages": [
           {
             "group": "Start here",
+            "hidden": true,
             "pages": [
               "index",
               "getting-started"
